@@ -375,7 +375,7 @@ Navbar
   max-width: var(--max-width);
   margin: 0 auto;
   padding-top: 2rem;
-  min-height: calc(100vh - (6rem + 4rem));
+  min-height: calc(100vh);
 
  }
 /* ==========
@@ -472,7 +472,14 @@ Navbar
   max-height: 70vh;
   overflow: scroll;
 }
-
+.vlogs-list-heading{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
 .tags-list{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -514,6 +521,7 @@ transition: var(--transition);
   different height */
   .recipe-img{
     height: 10rem;
+    border-radius: 5%;
   }
 
 
